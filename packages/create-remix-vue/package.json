@@ -1,0 +1,8 @@
+{
+  "name": "create-remix-vue",
+  "version": "0.0.1",
+  "description": "Create a new Remix-Vue app",
+  "bin": {
+    "create-remix": "cli.js"
+  }
+}

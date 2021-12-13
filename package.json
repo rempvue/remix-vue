@@ -1,0 +1,13 @@
+{
+  "private": true,
+  "name": "remix-vue-monorepo",
+  "scripts": {
+    "dev": ""
+  },
+  "workspaces": [
+    "packages/remix-vue"
+  ],
+  "dependencies": {
+    "husky": "7.0.2"
+  }
+}

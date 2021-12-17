@@ -2,7 +2,7 @@
   "private": true,
   "name": "remix-vue-monorepo",
   "scripts": {
-    "dev": ""
+    "dev": "yarn --cwd ./examples/basic/ dev"
   },
   "workspaces": [
     "packages/remix-vue"

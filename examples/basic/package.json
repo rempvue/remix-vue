@@ -3,8 +3,11 @@
   "name": "remix-vue-app-template",
   "description": "",
   "license": "",
-  "scripts": {},
-  "dependencies": {},
-  "devDependencies": {},
+  "scripts": {
+    "dev": "remix-vue dev"
+  },
+  "dependencies": {
+    "remix-vue": "^0.0.0"
+  },
   "engines": {}
 }

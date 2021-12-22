@@ -630,6 +630,15 @@
     "indent-string" "^4.0.0"
     "strip-indent" "^3.0.0"
 
+"remix-vue@file:":
+  "resolved" "file:"
+  "version" "0.0.1"
+  dependencies:
+    "express" "^4.17.2"
+    "meow" "^7.1.1"
+    "remix-vue" "file:"
+    "vite" "^2.7.3"
+
 "resolve@^1.10.0", "resolve@^1.20.0":
   "integrity" "sha512-wENBPt4ySzg4ybFQW2TT1zMQucPK95HSh/nq2CFTZVOGut2+pQvSsgtda4d26YrYcr067wjbmzOG8byDPBX63A=="
   "resolved" "https://registry.npmjs.org/resolve/-/resolve-1.20.0.tgz"

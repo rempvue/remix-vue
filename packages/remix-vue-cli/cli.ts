@@ -1,11 +1,10 @@
 import meow from 'meow'
 
-console.log('11111')
 const helpText = `
 Usage
  $ remix-vue dev [remixVueRoot]
 `
-
+console.log(helpText)
 const cli = meow(helpText, {
   autoHelp: true,
   autoVersion: false,
@@ -30,5 +29,6 @@ if (cli.flags.version) {
 
 switch (cli.input[0]) {
   case 'dev':
+    console.log('dev')
     break
 }

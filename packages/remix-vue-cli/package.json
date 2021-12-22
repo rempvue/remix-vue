@@ -1,0 +1,19 @@
+{
+  "name": "remix-vue-cli",
+  "version": "0.0.1",
+  "description": "Cli of remix-vue",
+  "author": "jeff",
+  "bin": {
+    "remix-vue": "bin/cli.js"
+  },
+  "scripts": {
+    "dev": "esbuild --bundle ./cli.ts --format=cjs --platform=node --outfile=./bin/cli.js   --external:esbuild --minify-whitespace --watch",
+    "cli": "node ./bin/cli.js"
+  },
+  "dependencies": {
+    "esbuild": "^0.14.7"
+  },
+  "devDependencies": {
+    "typescript": "^4.5.4"
+  }
+}

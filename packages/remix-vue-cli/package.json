@@ -4,7 +4,7 @@
   "description": "Cli of remix-vue",
   "author": "jeff",
   "bin": {
-    "remix-vue": "bin/cli.js"
+    "remix-vue-cli": "./bin/cli.js"
   },
   "scripts": {
     "dev": "esbuild --bundle ./cli.ts --format=cjs --platform=node --outfile=./bin/cli.js   --external:esbuild --minify-whitespace --watch",

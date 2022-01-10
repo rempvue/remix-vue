@@ -4,10 +4,7 @@
   "description": "",
   "license": "",
   "scripts": {
-    "dev": "remix-vue dev"
-  },
-  "dependencies": {
-    "remix-vue": "^0.0.0"
+    "dev": "remix-vue-cli dev"
   },
   "engines": {}
 }

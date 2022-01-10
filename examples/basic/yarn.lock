@@ -2,10 +2,8 @@
 # yarn lockfile v1
 
 
-"remix-vue@file:../../packages/remix-vue":
-  "resolved" "file:../../packages/remix-vue"
+"remix-vue-cli@file:../../packages/remix-vue-cli":
+  "resolved" "file:../../packages/remix-vue-cli"
   "version" "0.0.1"
   dependencies:
-    "express" "^4.17.2"
-    "meow" "^7.1.1"
-    "vite" "^2.7.3"
+    "esbuild" "^0.14.7"

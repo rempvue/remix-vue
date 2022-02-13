@@ -1,5 +1,6 @@
 #!/usr/bin/env node
 import meow from 'meow'
+import * as commands from './cli/commands'
 
 const helpText = `
 Usage
@@ -28,8 +29,14 @@ if (cli.flags.version) {
   cli.showVersion()
 }
 
+function handleError(error: Error) {
+  console.error(error.message)
+  process.exit(1)
+}
+
 switch (cli.input[0]) {
   case 'dev':
-    console.log('dev')
+    if (!process.env.NODE_ENV) process.env.NODE_ENV = 'development'
+    commands.dev(cli.input[1], process.env.NODE_ENV).catch(handleError)
     break
 }

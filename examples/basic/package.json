@@ -6,5 +6,12 @@
   "scripts": {
     "dev": "remix-vue-cli dev"
   },
-  "engines": {}
+  "dependencies": {
+    "vue": "^3.2.25",
+    "vue-router": "4"
+  },
+  "engines": {},
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^2.2.0"
+  }
 }

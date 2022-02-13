@@ -26,8 +26,10 @@ export async function readConfig(remixVueRoot?: string, serverMode = ServerMode.
   }
 
   let appDirectory = path.resolve(rootDirectory, appConfig.appDirectory || 'app')
+  let publicDirectory = path.resolve(rootDirectory, appConfig.publicDirectory || 'app')
 
   return {
     appDirectory,
+    publicDirectory,
   }
 }

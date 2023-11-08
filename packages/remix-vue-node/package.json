@@ -1,0 +1,12 @@
+{
+  "name": "@remix-vue/node",
+  "description": "A framework for building better websites",
+  "version": "0.0.1",
+  "main":"./dist/cjs/index.js",
+  "scripts": {
+    "build": "vite build"
+  },
+  "dependencies": {
+    "@remix-vue/server-runtime": "^0.0.1"
+  }
+}

@@ -4,9 +4,12 @@
   "description": "",
   "license": "",
   "scripts": {
-    "dev": "remix-vue-cli dev"
+    "dev": "node ./server.mjs",
+    "build": "vite build && vite build --ssr",
+    "start": "cross-env NODE_ENV=production node ./server.mjs"
   },
   "dependencies": {
+    "isbot": "latest",
     "vue": "^3.2.25",
     "vue-router": "4"
   },

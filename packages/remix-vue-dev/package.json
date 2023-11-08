@@ -1,0 +1,18 @@
+{
+  "name": "@remix-vue/dev",
+  "version": "0.0.1",
+  "description": "Dev tools and CLI for Remix-vue",
+  "author": "jeff chen",
+  "main": "dist/cjs/index.js",
+  "bin": {
+    "vuemix": "dist/cli.js"
+  },
+  "scripts": {
+    "build": "vite build"
+  },
+  "dependencies": {
+    "@remix-vue/express": "^0.0.1",
+    "express": "^4.18.2",
+    "vite": "^4.5.0"
+  }
+}

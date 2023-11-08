@@ -1,0 +1,1 @@
+{"version":3,"file":"virtualModules.js","sources":["../../../server/virtualModules.js"],"sourcesContent":["export const serverBuildVirtualModule = {\r\n    id: \"@remix-vue/dev/server-build\",\r\n    filter: /^@remix-vue\\/dev\\/server-build$/,\r\n  };"],"names":[],"mappings":";;;;;;;;;;;;AAAY,MAAC,wBAAwB,GAAG;AACxC,IAAI,EAAE,EAAE,6BAA6B;AACrC,IAAI,MAAM,EAAE,iCAAiC;AAC7C;;;;"}

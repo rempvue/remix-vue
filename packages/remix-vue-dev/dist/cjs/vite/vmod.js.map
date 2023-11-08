@@ -1,0 +1,1 @@
+{"version":3,"file":"vmod.js","sources":["../../../vite/vmod.js"],"sourcesContent":["export let id=(name)=>`virtual:${name}`\r\nexport let resolve=(id)=>`\\0${id}`;\r\nexport let url=(id)=>`/@id/__x00__${id}`;"],"names":[],"mappings":";;;;;;;;;;;;AAAU,IAAC,EAAE,CAAC,CAAC,IAAI,GAAG,CAAC,QAAQ,EAAE,IAAI,CAAC;;;;"}
